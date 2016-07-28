@@ -1,8 +1,8 @@
-/**
- * Content represents user input from the UI
- * /
 package com.langidentify.model;
 
+/**
+ * Content represents user input from the UI
+ */
 public class Content {
 	private String text;
 	private int numWords;
