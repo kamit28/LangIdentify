@@ -21,14 +21,6 @@ public final class DictionaryHelper {
 	private static final Map<String, Dictionary> dictionaries = new HashMap<>();
 	private static volatile boolean isEnabled;
 
-	/*
-	 * private static DictionaryHelper INSTANCE;
-	 * 
-	 * public static synchronized DictionaryHelper getInstance() { if (INSTANCE
-	 * == null) INSTANCE = new DictionaryHelper(); return INSTANCE; }
-	 */
-
-	// public static void main(String[] args) {
 	public static void init() {
 		isEnabled = false;
 		Path dir = Paths.get("/Users/Anshu/Desktop/langfiles");
@@ -96,5 +88,4 @@ public final class DictionaryHelper {
 	public Dictionary getDictionary(String lang) {
 		return dictionaries.get(lang);
 	}
-
 }
