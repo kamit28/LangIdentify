@@ -1,10 +1,10 @@
 /**
- * Dictionary interface, representing and old school word-lookup dictionary
+ * Dictionary interface, representing a word-lookup dictionary
  */
 package com.langidentify.model;
 
 /**
- * @author Christine
+ * @author Amit
  *
  */
 public interface Dictionary {
