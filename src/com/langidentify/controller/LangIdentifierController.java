@@ -17,11 +17,6 @@ public class LangIdentifierController {
 	@Autowired
 	private LangIdentifierService langIdentifierService;
 
-	/*
-	 * public void setLangIdentifierService(LangIdentifierService
-	 * langIdentifierService) { this.langIdentifierService =
-	 * langIdentifierService; }
-	 */
 	@RequestMapping(value = "/identify", method = RequestMethod.POST)
 	public String identify(@ModelAttribute("SpringWeb") Content content,
 			ModelMap model) throws Exception {
