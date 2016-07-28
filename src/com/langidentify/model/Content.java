@@ -1,3 +1,6 @@
+/**
+ * Content represents user input from the UI
+ * /
 package com.langidentify.model;
 
 public class Content {
